@@ -21,10 +21,10 @@ export default tseslint.config([
       ecmaVersion: 2020,
       globals: globals.browser
     },
-    plugins: {
-      reactHooks,
-      reactRefresh
-    },
+    // plugins: {
+    //   reactHooks,
+    //   reactRefresh
+    // },
     rules: {
       'no-restricted-imports': [
         'error',
